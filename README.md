@@ -378,10 +378,9 @@ Add keys to `backend/.env`.
 
 ## 👤 Author
 
-**[Your Name]**
-- Department of Computer Engineering
-- [Your College Name], [City]
-- Guided by: Prof. [Guide Name]
+- Shubham Suresh Gunde
+- Department of Computer Engineering(Data Science)
+- KIT, Kolhapur
 
 ---
 
