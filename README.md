@@ -315,36 +315,11 @@ Add keys to `backend/.env`.
 
 ---
 
-## 🔭 Future Scope
-
-1. **Drone Integration** — Aerial field monitoring via drone image processing
-2. **Crop Yield Prediction** — ML regression model with historical weather + soil data
-3. **IoT Sensor Dashboard** — Real-time soil moisture, temperature from field sensors
-4. **WhatsApp Bot** — Farmers can send leaf photos on WhatsApp for diagnosis
-5. **Mandi Price Integration** — Live AGMARKNET price feeds
-6. **Offline Mode** — PWA with cached model for areas with poor connectivity
-7. **Voice Interface** — Speech-to-text in Indian languages for illiterate farmers
-8. **Satellite Imagery** — NDVI analysis from Sentinel-2 for crop health monitoring
-
----
-
-## 🎓 Viva Preparation
-
-### Simple Description (for committee)
+### Simple Description 
 > "AgriVision AI is a web-based platform that uses artificial intelligence to help Indian farmers detect crop diseases from photos, get fertilizer recommendations, plan crops based on their location and weather, and get advice in their own language through a chatbot."
 
 ### Technical Description
 > "AgriVision AI is a full-stack application with a React + Tailwind CSS frontend and Flask REST API backend. It uses a 4-layer Convolutional Neural Network trained on the PlantVillage dataset (87,000+ images, 39 classes) for disease detection. The fertilizer recommendation engine uses a rule-based system with soil-type adjustment factors. Weather data is fetched from Open-Meteo's free API. The multilingual chatbot uses Groq's Llama-3-70B via a REST API, with a rule-based fallback. All data is stored in SQLite via SQLAlchemy ORM with JWT-based authentication."
-
-### Why This Is a Mega Project
-1. **8 distinct AI/data features** integrated in one platform
-2. **Multilingual** — 10 Indian languages
-3. **Full-stack** — React frontend + Flask REST API
-4. **Real APIs** — Open-Meteo weather, Groq LLM, NewsAPI
-5. **Interactive map** — Leaflet.js with all 28 Indian states
-6. **Authentication** — JWT-based user system with history tracking
-7. **Mobile responsive** — works on all screen sizes
-8. **Production-ready** — proper API design, error handling, env config
 
 ### Questions & Answers
 
