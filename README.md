@@ -346,7 +346,7 @@ Add keys to `backend/.env`.
 7. **Mobile responsive** — works on all screen sizes
 8. **Production-ready** — proper API design, error handling, env config
 
-### Possible Viva Questions & Answers
+### Questions & Answers
 
 **Q: What dataset did you use for disease detection?**
 > PlantVillage dataset — 87,000+ images across 39 classes covering 14 plant species.
